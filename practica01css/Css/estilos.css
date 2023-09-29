@@ -48,3 +48,29 @@ header nav ul li{
     width: 98%; 
     border: solid rgba(150,150,150,0.5);
 }
+#seccion02{
+    margin-bottom: 50px;
+}
+#seccion02 article{
+    width: 33%;
+   /*border: 1px solid blue;*/
+    display: inline-block;
+    vertical-align: top;
+
+}
+#seccion02 article input[type="submit"]{
+    background: white;
+    border-radius: 5px;
+    color: blue;
+    padding: 10px;
+    margin-left: 115px;
+}
+.unaSeccion{
+    font-size: 4.5em;
+}
+.nito{
+    font-weight: bold; /*negritas*/
+}
+.OtraSeccion{
+    font-size: 2.5em;
+}
