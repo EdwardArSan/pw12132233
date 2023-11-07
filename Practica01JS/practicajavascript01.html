@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica01JS</title>
+</head>
+<body>
+    <script>
+        const pi= 3.1416;
+        //pi=3.14;
+        var a = 22;
+        var b=11;
+        document.writeln("valor a"+a);
+        if(b!= undefined){
+            document.writeln("valor b"+b);
+        }
+        //document.writeln("valor z"+z);
+        for(let a=0;a<=10;a++){ // declarar la variable con let dentro del ciclo.
+            document.writeln(a);
+        }
+        document.writeln(a);
+        alert('Hola JS');
+        let n = prompt("Dame tu nombre");
+
+        if(n!=null){
+            document.write("<br>"+n);
+
+        }
+        let y = 8;
+        let z = 2;
+        document.write("<br>");
+        document.write("Suma"+(y+z));
+        document.write("<br>");
+        document.write(`Suma:${y}+${z}`);
+
+        function suma(a,b){
+            return a+b;
+        }
+    </script>
+    <form procesa envia>
+        <input type="text">
+    </form>
+</body>
+</html>
