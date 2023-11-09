@@ -22,7 +22,7 @@ function anterior(){
 
 function siguiente(){
   numero ++;
-  if (numero=cantidad){
+  if (numero===cantidad){
       numero=0;
   }
     muestra();
