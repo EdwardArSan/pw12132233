@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel</title>
+</head>
+<body>
+    <style>
+        body {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        span{
+            margin-left: 10px;
+        }
+        img{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 150px;
+            margin-left: 10px;
+            width: 300px;
+         
+        }
+
+    </style>
+    <h1> Marvel Superheroes<span></span></h1> 
+    <form id="searchForm">
+        <input type="text" id="heroName" placeholder="Ingresa el nombre del héroe">
+        <button type="submit" onclick="apimarvel();">Buscar</button>
+    </form>
+    <div id="heroImageContainer"></div>
+    <script src="marvel.js"></script>
+</body>
+</html>
